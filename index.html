@@ -1,13 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Array</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+<html>
+    <head>
+        <title>Functies</title>
+    </head>
 <body>
- <span id="menukaart"></span>
- <span id="numbers"></span>
+
+<button onclick="displayMenu()" value="display whole array">Klik hierop</button>
+<p class="menu-display" id="menu">Volledige Array lijst</p>
+
+<br><br>
+<button onclick="displayMenuSpecific(4)" value="array met argument 4">Klik hierop</button>
+<p class="menu-display" id="menuSpecific">Een specefiek item uit de Array</p>
+
+<br><br>
+
+<button onclick="displayMenuSpecificReturn(4)" value="array met argument 4">Klik hierop</button>
+<p class="menu-display" id="menuSpecificReturn">Specifiek item met Return</p>
+
+<button onclick="displayMenuMeerdere(0)" value="array met argument 4">Klik hierop</button>
+<p class="menu-display" id="menuMeerdere">Specifieke menu item</p>
 <script src="index.js"></script>
+
 </body>
 </html>
